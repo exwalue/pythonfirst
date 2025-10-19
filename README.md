@@ -26,7 +26,7 @@ git push origin main
 Просмотр истории
 git log
 
-# 00
+00
 
 for city1, coord1 in sites.items():
     distances[city1] = {}
