@@ -27,4 +27,5 @@ git push origin main
 git log
 
 00
-https://github.com/exwalue/pythonfirst/blob/main/screenshots/lab1.png
+<img width="963" height="43" alt="lab1" src="https://github.com/user-attachments/assets/19fda7bb-5136-4b08-852d-10cab60c5830" />
+
