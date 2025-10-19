@@ -28,6 +28,7 @@ git log
 
 # 00
 
+```python
 for city1, coord1 in sites.items():
     distances[city1] = {}
     for city2, coord2 in sites.items():
@@ -38,10 +39,11 @@ for city1, coord1 in sites.items():
             distances[city1][city2] = round(distance, 2)  # Округляем до 2 знаков
 
 print(distances)
+```
 <img width="963" height="43" alt="lab1" src="https://github.com/user-attachments/assets/19fda7bb-5136-4b08-852d-10cab60c5830" />
 
 # 01
-
+```python
 # Площадь круга
 pi = 3.1415926
 area = pi * (radius ** 2)
@@ -56,6 +58,7 @@ print(distance_1 <= radius)
 point_2 = (30, 30)
 distance_2 = (point_2[0] ** 2 + point_2[1] ** 2) ** 0.5
 print(distance_2 <= radius)
+```
  <img width="89" height="71" alt="lab2" src="https://github.com/user-attachments/assets/0eecd694-9a4e-438b-b4d0-5cd550c5e069" />
 
 # 02
