@@ -25,3 +25,6 @@ git push origin main
 
 Просмотр истории
 git log
+
+00
+https://github.com/exwalue/pythonfirst/blob/main/screenshots/lab1.png
