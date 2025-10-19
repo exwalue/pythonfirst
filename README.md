@@ -28,7 +28,7 @@ git log
 
 00
 
-for city1, coord1 in sites.items():
+" for city1, coord1 in sites.items():
     distances[city1] = {}
     for city2, coord2 in sites.items():
         if city1 != city2:  # Не считаем расстояние до самого себя
@@ -37,7 +37,7 @@ for city1, coord1 in sites.items():
             distance = ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
             distances[city1][city2] = round(distance, 2)  # Округляем до 2 знаков
 
-print(distances)
+print(distances) "
 <img width="963" height="43" alt="lab1" src="https://github.com/user-attachments/assets/19fda7bb-5136-4b08-852d-10cab60c5830" />
 
 01
